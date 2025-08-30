@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    gap: 50px;
+}
+
+.container.focused-view {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.sidebar {
+    display: none;
+}
+

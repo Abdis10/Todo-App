@@ -1,0 +1,64 @@
+.navigation {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 16px;
+}
+
+
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+
+    cursor: pointer;
+}
+
+.date-item-container {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.date-item-container h4, p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.color-square {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.06) inset;
+}
+
+
+.color-square.blue {background: blue;}
+.color-square.orange {background: orange;}
+.color-square.teal {background: teal;}
+.color-square.purple {background: purple;}
+
+
+
+.list:hover {
+  cursor: pointer;
+  background-color: #b0fcb0; /* subtle highlight */
+}
+.list:focus {
+  outline: 2px solid teal; /* visible keyboard focus */
+}
+
+
+
